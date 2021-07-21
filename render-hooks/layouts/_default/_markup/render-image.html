@@ -12,10 +12,10 @@
   {{ $alt := $.PlainText }}
   {{ $srcSet := "" }}
   {{ $src := $img.RelPermalink }}
-  {{ $imgFormatOptions := printf "%dx jpg %s q71" $bgColor }}
-  {{ $width2x := cond (gt $.img.Width $.width2x) $.img.Width $.width2x }}
-  {{ $resized1x := $.img.Resize (printf $imgFormatOptions $.width1x) }}
-  {{ $resized2x := $.img.Resize (printf $imgFormatOptions $width2x) }}
+  {{ $imgFormatOptions := printf "%%dx jpg %s q71" $bgColor }}
+  {{ $width2x := cond (gt $img.Width $width2x) $img.Width $width2x }}
+  {{ $resized1x := $img.Resize (printf $imgFormatOptions $width1x) }}
+  {{ $resized2x := $img.Resize (printf $imgFormatOptions $width2x) }}
   <picture>
     <source srcset="{{ $resized2x.RelPermalink }}" media="(min-width: 640px)" />
     <img  width="{{ $resized1x.Width }}" height="{{ $resized1x.Height }}" src="{{ $resized1x.RelPermalink }}" loading="lazy" alt="{{ $alt }}" title="{{ $title }}" {{ with $class }}class="{{ . }}" {{ end }}/>
