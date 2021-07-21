@@ -4,18 +4,27 @@
   {{- $img = resources.Get $path -}}
 {{- end -}}
 {{- with $img -}}
-  {{ $bgColor := site.Params.bgColor | default "#fff" }}
-  {{ $class := "" }}
-  {{ $width2x := 1388}}
-  {{ $width1x := 694}}
+  {{ $opts := site.Params.hugo_mod_misc_render_hooks.image }}
+  {{ $class := $opts.css }}
+  {{ $command := $opts.command | lower }}
   {{ $title := $.Title }}
   {{ $alt := $.PlainText }}
   {{ $srcSet := "" }}
   {{ $src := $img.RelPermalink }}
-  {{ $imgFormatOptions := printf "%%dx jpg %s q71" $bgColor }}
-  {{ $width2x := cond (gt $img.Width $width2x) $img.Width $width2x }}
-  {{ $resized1x := $img.Resize (printf $imgFormatOptions $width1x) }}
-  {{ $resized2x := $img.Resize (printf $imgFormatOptions $width2x) }}
+  {{ $resized1x := "" }}
+  {{ $resized2x := "" }}
+  {{ if eq $command "resize" }}
+    {{ $resized1x = $img.Resize $opts.options1x }}
+    {{ $resized2x = $img.Resize $opts.options2x }}
+  {{ else if $command "fill" }}
+    {{ $resized1x = $img.Fill $opts.options1x }}
+    {{ $resized2x = $img.Fill $opts.options2x }}
+  {{ else if $command "fit" }}
+    {{ $resized1x = $img.Fit $opts.options1x }}
+    {{ $resized2x = $img.Fit $opts.options2x }}
+  {{ else }}
+    {{ errorf "unknown image command %q" $command}}
+  {{ end }}
   <picture>
     <source srcset="{{ $resized2x.RelPermalink }}" media="(min-width: 640px)" />
     <img  width="{{ $resized1x.Width }}" height="{{ $resized1x.Height }}" src="{{ $resized1x.RelPermalink }}" loading="lazy" alt="{{ $alt }}" title="{{ $title }}" {{ with $class }}class="{{ . }}" {{ end }}/>
