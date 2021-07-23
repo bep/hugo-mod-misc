@@ -1,4 +1,6 @@
-Hugo render hooks for links and images.
+Some dummy test content, useful for theme previews etc.
+
+The photos are copyright Bjørn Erik Pedersen, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
 
 ## Installation
 
@@ -7,11 +9,7 @@ Add it to your site config:
 ```toml
 [module]
 [[module.imports]]
-path="github.com/bep/hugo-mod-misc/render-hooks"
+path="github.com/bep/hugo-mod-misc/dummy-content"
 ```
-
-Then run `hugo`.
-
-Also see [config](config.toml) for available options.
 
 **Note:** You need [Go](https://golang.org/dl/) and [Git](https://git-scm.com/downloads) intalled (and [Hugo](https://gohugo.io/getting-started/installing/)) to install this module.
