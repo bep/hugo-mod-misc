@@ -1,16 +1,14 @@
-<meta
-  name="description"
-  content="{{ with .Description }}
-    {{ . }}
+{{ $description := "" }}
+{{ with .Description }}
+  {{ $description = . }}
+{{ else }}
+  {{ if .IsPage }}
+    {{ $description = .Summary }}
   {{ else }}
-    {{ if .IsPage }}
-      {{ .Summary }}
-    {{ else }}
-      {{ with .Site.Params.description }}{{ . }}{{ end }}
-    {{ end }}
+    {{ with .Site.Params.description }}{{ $description = . }}{{ end }}
   {{ end }}
-  " />
-
+{{ end }}
+<meta name="description" content="{{ $description }}" />
 {{- partial "common-partials/opengraph/opengraph.html" . -}}
 {{- template "_internal/schema.html" . -}}
 {{- partial "common-partials/opengraph/twitter_cards.html" . -}}
