@@ -1,24 +1,17 @@
+{{ $description := "" }}
+{{ with .Description }}
+  {{ $description = . }}
+{{ else }}
+  {{ if .IsPage }}
+    {{ $description = .Summary }}
+  {{ else }}
+    {{ with .Site.Params.description }}{{ $description = . }}{{ end }}
+  {{ end }}
+{{ end }}
 <meta property="og:title" content="{{ .Title }}" />
-<meta
-  property="og:description"
-  content="{{ with .Description }}
-    {{ . }}
-  {{ else }}
-    {{ if .IsPage }}
-      {{ .Summary }}
-    {{ else }}
-      {{ with .Site.Params.description }}{{ . }}{{ end }}
-    {{ end }}
-  {{ end }}" />
-<meta
-  property="og:type"
-  content="{{ if .IsPage }}
-    article
-  {{ else }}
-    website
-  {{ end }}" />
+<meta property="og:description" content="{{ $description }}" />
+<meta property="og:type" content="{{ cond .IsPage `article` `website` }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
-
 {{- with $.Params.images -}}
   {{- range first 6 . }}
     <meta property="og:image" content="{{ . | absURL }}" />
@@ -33,7 +26,6 @@
     {{ end -}}
   {{- end -}}
 {{- end -}}
-
 {{- if .IsPage }}
   {{- $iso8601 := "2006-01-02T15:04:05-07:00" -}}
   <meta property="article:section" content="{{ .Section }}" />
@@ -48,7 +40,6 @@
       {{ .Format $iso8601 | printf "content=%q" | safeHTMLAttr }} />
   {{ end }}
 {{- end -}}
-
 {{- with .Params.audio }}<meta property="og:audio" content="{{ . }}" />{{ end }}
 {{- with .Params.locale }}
   <meta property="og:locale" content="{{ . }}" />
@@ -60,9 +51,7 @@
   {{- range . }}
     <meta property="og:video" content="{{ . | absURL }}" />
   {{ end }}
-
 {{ end }}
-
 {{- /* If it is part of a series, link to related articles */}}
 {{- $permalink := .Permalink }}
 {{- $siteSeries := .Site.Taxonomies.series }}
@@ -75,9 +64,7 @@
       {{ end }}
     {{- end }}
   {{ end }}
-
 {{ end }}
-
 {{- /* Facebook Page Admin ID for Domain Insights */}}
 {{- with .Site.Social.facebook_admin }}
   <meta property="fb:admins" content="{{ . }}" />
