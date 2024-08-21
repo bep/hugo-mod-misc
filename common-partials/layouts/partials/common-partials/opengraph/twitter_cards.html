@@ -26,7 +26,7 @@
   {{- end -}}
 {{- end }}
 <meta name="twitter:title" content="{{ .Title }}" />
-<meta name="twitter:description" content="$description" />
+<meta name="twitter:description" content="{{ $description }}" />
 {{ with .Site.Social.twitter -}}
   <meta name="twitter:site" content="@{{ . }}" />
 {{ end -}}
