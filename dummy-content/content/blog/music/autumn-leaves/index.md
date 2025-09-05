@@ -4,51 +4,28 @@ tags: [jazz,minor]
 date: 2018-04-01
 ---
 
-Lorem markdownum, placidi peremptis, mater fago satus quoque se paelice medium
-fera. Suscipimus falce, artes, qualesque dum maestis emittere **et traxit**
-necari calcavere nubilus sequar; quem male utve. Adeunt tamen; et terga cum
-victus raptu puero: abdita, et raptor has _fieri similisque_, deos.
+Autumn Leaves is a popular jazz standard composed by Joseph Kosma with original French lyrics by Jacques Prévert and English lyrics by Johnny Mercer. The song was first published in 1945 and has since become a staple in the jazz repertoire.
 
  <!--more-->
 
-- Ulla potest inter laborum
-- Sanguineaque valet Thessalus quem
-- Verba suam Titania
-- Fassaque medios iste nequiquam nulla urget sumus
-- Plura cultor sterilique
+The song is known for its melancholic melody and poignant lyrics, which reflect on the themes of love and loss. It has been recorded by numerous artists, including Nat King Cole, Miles Davis, and Eva Cassidy.
 
-Illi iura; vidi sint proiecto; nec timeo, te sedulitas spissa leti tanta,
-Achille, corvum. Adsit trahens _voce_. Dat adhuc aere, repulsae iuvenalia
-auctor. Posse bello donec tamen placent sua: enim: summa illa sublimemque.
+The song is typically performed in the key of G minor and features a 32-bar AABC structure. Here are the opening lyrics to the song:
 
-## Troiae foret tum diduxit deos diem
+```
+The falling leaves drift by the window
+The autumn leaves of red and gold
+I see your lips, the summer kisses
+The sunburned hands I used to hold
+```
 
-Perque praeside! Qui videt rex quisquis accepisse dominae ut quid et fatalia,
-funestaque gurgite. Fama hac contendere arma, germani hostes et tulit limoso,
-frondes fores Ulixe sed litem stipulae posset. Quoque ossa, non movi sum et
-divisque **et** colores devovet. Habent longe nec, est quo toto corpus tellus.
+The song's evocative imagery and haunting melody make it a favorite among jazz musicians and listeners alike, often evoking a sense of nostalgia and reflection on past relationships.
+The chord progression of "Autumn Leaves" is also widely studied and used in jazz improvisation, making it a valuable piece for both performers and students of jazz music.
+Here is a common chord progression for "Autumn Leaves" in the key of G minor:
 
-Ossa cladi leoni **beatos conterminus** squalidus erat haesisse _modo repetit
-plena_ collo; spectantem! Fatali hoc renasci mihi age. Nec alta ferrum imitantes
-monstra per figuram, freto, vetus tellus finem, ergo eadem Euboica in _sinat
-studiosius_? Pectoribus germane, est colebat, simul debemur ignoto
-_simulacraque_. Quoque conanti est opposuitque canitiem recto tamen canescere
-reverti magni undis haec aurum undas cum elisa nec et.
-
-## Et et usus cruor levati
-
-Temerat dolosas morantia hastile latura: vidit quid **decoram** interdum, ab.
-Cervice terrigenasque deflent Eurypylique brevis, veris et altius vivere me
-incerta ortus illo tauri, inritata faces. Casside tum pleno sic. Dum utile monte
-scopulus? Illa haut eluditque illis, conlapsa super, adspice alvum umquam.
-
-- Excutiuntque cratem dicere robore feci
-- Arbore nunc laudat placet victus rapitur quidem
-- Sine haec unica matrem fissa inquit Cipi
-- Corpore quanto ternisque invidere
-- Speculi etsi
-
-Relinquunt amore corripuit in intulit valuisse frustra Creten Diana pulcherrime
-roganda inpendere. Habendi lugebisque melior; suo quamquam cum; nec vires arma
-munere lumina ad! Altae suo. _Trita_ quos; **dei** male hac flumina, per
-Apolline! Suus nube sine aegide licet.
+```
+| Gm7 | C7 | Fmaj7 | Bbmaj7 |
+| Em7b5 | A7 | Dm7 | G7 |
+| Gm7 | C7 | Fmaj7 | Bbmaj7 |
+| Em7b5 | A7 | Dm7 | G7 |
+```   
