@@ -1,5 +1,5 @@
 ---
-title: Satin Dolls
+title: Satin Dolls!
 tags: [jazz,major]
 date: 2019-02-15
 lastMod: 2024-09-05
