@@ -11,6 +11,8 @@ Satin Doll is a jazz standard written in 1953 by Duke Ellington and Billy Strayh
 
 The song is a 32-bar AABA form, with a melody that is both catchy and sophisticated. The chord progression is also interesting, with a number of ii-V-I progressions and some chromaticism.
 
+![](potter-vienna-featured-cover.jpg)
+
 Here are the chord changes for Satin Doll in the key of C major:
 
 ```

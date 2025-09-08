@@ -17,6 +17,8 @@ Ille ferus partes; lato albet, mihi est vox; natis respicit nostrumque nare
 factus Saturnia verborum. Aegro saturos ea quoque Ulixem abscedit, deos rutilis,
 census.
 
+![](vozzajazz2018-featured-cover.jpg)
+
 Curalium causa; me _ei_ te quid illo origine. Tecum vaporibus dum quem ira,
 terga pervigil ibimus, et saepe et. E dea amicius quibus; Dianam adspexisse
 terga. Et nostrae _necis_.

@@ -4,46 +4,21 @@ linkTitle: Body and Soul
 tags: [jazz,major]
 date: 2019-02-08
 ---
-
-Lorem markdownum potiorque debueram pro equo, Longius Alcimedon vivatis. Pressus
-militiae; intus chaos refert quo **pugnat forma** sibi manus deducere videt
-sinistrae fratrem est sine quidem Thestias monstra. Flammis vel illi inmeriti,
-usus est etiam cum terruit ancipiti caelestia eras! Anni undis, nunc ferae
-ultricibus natorum progenuit fuit: sociorum ac ab quos. _Vatum praeter_.
+"Body and Soul" is a popular jazz standard and ballad composed by Johnny Green with lyrics by Edward Heyman, Robert Sour, and Frank Eyton. It was published in 1930 and has since become one of the most recorded jazz standards of all time.
 
  <!--more-->
 
-Undis causamque Tlepolemus dicentem coiere, falsosque eburnea quercu admoverat
-pascua poeniceas est sed sonuere poena. Tua foedera fugabitur dumque Haemonio
-saetis rotave laborum credere quoque humilem in domat fluctus alvum, cur
-lacrimasque dedit. Qualis ad est ambos saturatos [nil](#percepto-sic-posse)
-sororibus satiatae colitur aequora, reservet, nec dei, prolem ullum deducitur.
-Et avem alvum suis et questa **dextera tangit prohibemur** e coniuge, suspiria
-flumina praecipitatur.
+The song is known for its complex chord changes and emotional depth, making it a favorite among jazz musicians for improvisation. The melody is haunting and melancholic, often evoking a sense of longing and introspection.
 
-Narravere iurant, par lente grandior nam ubi alternare _Finis gerentem deorum_
-terrae. An fugiamus fluminis. Intortos dum notavi omnibus viderunt _et labant_
-Phoebus, exiguumque frigore quoque vomentem arsit, tum ora quem, est. Quibus
-facta par nam laesum animo visum ventis sudore, committere e ablata hastis. Diva
-est Quid nomina tauros et _tuorum_ morti: Cycnus gener nobis caedis, telo.
+![](staffan-featured-cover.jpg)
 
-## Neque campi fuerat ad parte ait moenia
+Here are the chord changes for "Body and Soul" in the key of D major:
 
-Spartana potiuntur Cythereia me ignavo, non te nisi sum ferendae furtum ut
-Haemus atque tenebris duobus. Sollertius tu osse ibat verba. Quam Aethon sacrum!
-Iusque esse; nam illa et ligo illum agrestes tunc vertice Orio herbis portus,
-constiterat? Tecta spargere: homo angue spicula est Ianigenam, natusque volantes
-memoraverat ante.
-
-1. Ortygiam quid nobis vacuo cornua Paraetonium Salmacis
-2. Comitum quoque novissima canes inpia sermone Circen
-3. Mea fugit patre
-
-[Auctor nubibus](#ad-equi) novae tremit illa oras meum _cautum inania_ carmine
-disiectisque habitura. Tamen fecit cauda in sidera dignoque praesens eadem
-tenuavit. Hoc auras verbere virgineum et quod siccaverat illis mecum multo sed
-vidit testatus fecundo; nec. Suos videre rectumque una nunc nocuisse frugum
-formosissimus: dum lancea iamque artisque vel; velit est, Crotonis dextra.
-
-Cum _vultu germanamque_ in **Perseus** est motis tuba tenebat ecce coniunx vel
-vel viro. Erit res nisi perforat ensem speculabar tractus illis.
+```
+| Dmaj7 | Bm7 | E7 | A7 |
+| Dmaj7 | Bm7 | E7 | A7 |
+| Gmaj7 | F#m7 | B7 | Em7 A7 |
+| Dmaj7 | Bm7 | E7 | A7 |
+| Gmaj7 | F#m7 | B7 | Em7 A7 |
+| Dmaj7 | Bm7 | E7 | A7 |
+```

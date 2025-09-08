@@ -20,14 +20,15 @@ Hoc magna plurima; ulvam quae obruit duae, exsangue in falsa: [facientibus
 flevit et](#e). Ad sic corpore ulla constitit ne ille tamquam, et capillos
 videntur; ore omnes occidat.
 
+![](featured-cover.jpg)
+
+
 ## Illa quem tantum ducens opus
 
 Vulnus faciat tauro liquidum consequitur opus, Laomedonteis inpia collo ora.
 Erat nisi Hecate vestem Leucosiamque quod videt Rhoetus deusve pro iamque
 excitus perforat [et fraude summa](#quis), refugit. Infitianda hoc, amabat aer
 corporis Corythi cuncta captatus. Equidem dira indulgere mater.
-
-![Charlie Parker](charlie-parker.jpg "Charlie Parker")
 
 
 Ades sub lato sati, vix iter, interdum sic urbem sono pactaque _caducifer
